@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=latin-ext');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+$white: #fff;
+$black: #000;
+$card: #DCDCDC;
+
+.contactImage {
+    height: 120px;
+    width: 200px;    
+}
+
+.contactLabel  {
+    font-size: 20px;
+}
+
+.contactForm {
+    margin: 25px;
+    text-align: center;
+}
+
+button { 
+    background-color: $black;
+    color: $white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+input {
+    font-size: 20px;
+    margin: 0 5px;
+    border-radius: 10px;
+    border: 2px solid $black;
+}
+
+.contactItem {
+    text-align: center;
+    display: inline-block;
+    margin: 25px;
+    background-color: $card;
+    border-radius: 25px;
+    border: 2px dashed $black;
+    padding: 25px;
+}
+
+.contactList {
+    display: inline-block;
+}
